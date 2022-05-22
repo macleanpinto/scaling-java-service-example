@@ -6,3 +6,8 @@ base-app/target/**
 load-tests/target/
 throttled-app/.vscode/
 throttled-app/target/
+load-tests/.metals/metals.lock.db
+.gitignore
+load-tests/.metals/metals.mv.db
+load-tests/.metals/metals.log
+load-tests/.vscode/settings.json
