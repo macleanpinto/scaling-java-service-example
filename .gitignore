@@ -3,3 +3,6 @@ base-app/target/**
 .DS_Store
 .metals/**
 .vscode/settings.json
+load-tests/target/
+throttled-app/.vscode/
+throttled-app/target/
