@@ -26,34 +26,10 @@ class DefaultHotelService implements HotelService {
     }
 
     @Override
-    public List<Hotel> getHotelsByCity(Long cityId) {
-        return hotelRepository.findAll().stream()
-                .filter((hotel) -> cityId.equals(hotel.getCity().getId()))
-                .collect(Collectors.toList());
-    }
-
-    @Override
     public Optional<Hotel> getHotelById(Long hotelId) {
         if (hotelId == null) {
             throw new BadRequestException("The ID must not be provided when searching a Hotel");
         }
         return hotelRepository.findById(hotelId);
-    }
-
-    @Override
-    public void deleteById(Long hotelId) {
-        if (hotelId == null) {
-            throw new BadRequestException("The ID must not be provided when deleting a new Hotel");
-        }
-        hotelRepository.deleteById(hotelId);
-    }
-
-    @Override
-    public Hotel createNewHotel(Hotel hotel) {
-        if (hotel.getId() != null) {
-            throw new BadRequestException("The ID must not be provided when creating a new Hotel");
-        }
-
-        return hotelRepository.save(hotel);
     }
 }
