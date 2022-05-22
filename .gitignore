@@ -1,0 +1,5 @@
+base-app/target/**
+.scalafmt.conf
+.DS_Store
+.metals/**
+.vscode/settings.json
