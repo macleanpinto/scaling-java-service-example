@@ -1,0 +1,239 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 1595071,
+        "ok": 1594526,
+        "ko": 545
+    },
+    "minResponseTime": {
+        "total": 34,
+        "ok": 34,
+        "ko": 60000
+    },
+    "maxResponseTime": {
+        "total": 60004,
+        "ok": 59820,
+        "ko": 60004
+    },
+    "meanResponseTime": {
+        "total": 837,
+        "ok": 817,
+        "ko": 60001
+    },
+    "standardDeviation": {
+        "total": 1225,
+        "ok": 553,
+        "ko": 1
+    },
+    "percentiles1": {
+        "total": 773,
+        "ok": 767,
+        "ko": 60001
+    },
+    "percentiles2": {
+        "total": 1211,
+        "ok": 1211,
+        "ko": 60001
+    },
+    "percentiles3": {
+        "total": 1577,
+        "ok": 1573,
+        "ko": 60001
+    },
+    "percentiles4": {
+        "total": 1635,
+        "ok": 1634,
+        "ko": 60002
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 805251,
+    "percentage": 50
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 362675,
+    "percentage": 23
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 426600,
+    "percentage": 27
+},
+    "group4": {
+    "name": "failed",
+    "count": 545,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 4531.451704545455,
+        "ok": 4529.903409090909,
+        "ko": 1.5482954545454546
+    }
+},
+"contents": {
+"req_listhotels200-789dc": {
+        "type": "REQUEST",
+        "name": "listHotels200",
+"path": "listHotels200",
+"pathFormatted": "req_listhotels200-789dc",
+"stats": {
+    "name": "listHotels200",
+    "numberOfRequests": {
+        "total": 800269,
+        "ok": 800006,
+        "ko": 263
+    },
+    "minResponseTime": {
+        "total": 34,
+        "ok": 34,
+        "ko": 60000
+    },
+    "maxResponseTime": {
+        "total": 60004,
+        "ok": 59586,
+        "ko": 60004
+    },
+    "meanResponseTime": {
+        "total": 835,
+        "ok": 815,
+        "ko": 60001
+    },
+    "standardDeviation": {
+        "total": 1211,
+        "ok": 561,
+        "ko": 1
+    },
+    "percentiles1": {
+        "total": 762,
+        "ok": 762,
+        "ko": 60001
+    },
+    "percentiles2": {
+        "total": 1209,
+        "ok": 1209,
+        "ko": 60001
+    },
+    "percentiles3": {
+        "total": 1574,
+        "ok": 1573,
+        "ko": 60001
+    },
+    "percentiles4": {
+        "total": 1635,
+        "ok": 1634,
+        "ko": 60002
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 405426,
+    "percentage": 51
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 181332,
+    "percentage": 23
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 213248,
+    "percentage": 27
+},
+    "group4": {
+    "name": "failed",
+    "count": 263,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 2273.4914772727275,
+        "ok": 2272.744318181818,
+        "ko": 0.7471590909090909
+    }
+}
+    },"req_gethotel200-625cb": {
+        "type": "REQUEST",
+        "name": "getHotel200",
+"path": "getHotel200",
+"pathFormatted": "req_gethotel200-625cb",
+"stats": {
+    "name": "getHotel200",
+    "numberOfRequests": {
+        "total": 794802,
+        "ok": 794520,
+        "ko": 282
+    },
+    "minResponseTime": {
+        "total": 35,
+        "ok": 35,
+        "ko": 60000
+    },
+    "maxResponseTime": {
+        "total": 60002,
+        "ok": 59820,
+        "ko": 60002
+    },
+    "meanResponseTime": {
+        "total": 840,
+        "ok": 819,
+        "ko": 60001
+    },
+    "standardDeviation": {
+        "total": 1240,
+        "ok": 544,
+        "ko": 1
+    },
+    "percentiles1": {
+        "total": 779,
+        "ok": 781,
+        "ko": 60001
+    },
+    "percentiles2": {
+        "total": 1212,
+        "ok": 1212,
+        "ko": 60001
+    },
+    "percentiles3": {
+        "total": 1578,
+        "ok": 1576,
+        "ko": 60001
+    },
+    "percentiles4": {
+        "total": 1635,
+        "ok": 1634,
+        "ko": 60002
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 399825,
+    "percentage": 50
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 181343,
+    "percentage": 23
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 213352,
+    "percentage": 27
+},
+    "group4": {
+    "name": "failed",
+    "count": 282,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 2257.9602272727275,
+        "ok": 2257.159090909091,
+        "ko": 0.8011363636363636
+    }
+}
+    }
+}
+
+}

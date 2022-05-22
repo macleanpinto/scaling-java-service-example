@@ -1,0 +1,10 @@
+{
+  "simulation": "com.test.simulations.CapacitySimulation",
+  "simulationId": "capacitysimulation",
+  "start": 1653240469660,
+  "description": "",
+  "scenarios": ["getHotel 200", "listHotels 200"],
+  "assertions": [
+
+  ]
+}

@@ -4,8 +4,8 @@ base-app/target/**
 .metals/**
 .vscode/settings.json
 load-tests/target/
-throttled-app/.vscode/
-throttled-app/target/
+reactive-app/.vscode/
+reactive-app/target/
 load-tests/.metals/metals.lock.db
 .gitignore
 load-tests/.metals/metals.mv.db
